@@ -1,3 +1,10 @@
+document.body.addEventListener("click", function () {
+  var audioElement = document.getElementById("bgMusic");
+  if (audioElement.paused) {
+      audioElement.play();
+  }
+});
+
 (function($) {
   
   "use strict";  
